@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZipLLM - Smart Storage for AI Models</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <div class="container">
+                <h1>ZipLLM</h1>
+                <p class="tagline">Smart Storage for AI Models</p>
+                <p class="subtitle">Saving space &amp; boosting performance for AI&nbsp;model&nbsp;repositories</p>
+                <div class="cta-buttons">
+                    <a href="#what-it-does" class="btn primary">How It Works</a>
+                    <a href="https://github.com" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sticky-nav">
+        <div class="container">
+            <div class="logo">ZipLLM</div>
+            <ul>
+                <li><a href="#what-it-does">What It Does</a></li>
+                <li><a href="#why-it-matters">Why It Matters</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#team">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="what-it-does" class="section-card">
+            <h2 class="section-title">What ZipLLM Does</h2>
+            <div class="paper-section">
+                <div class="flex-row benefits-layout">
+                    <div class="main-content">
+                        <h3>Smart Storage for AI Models</h3>
+                        <p>
+                            ZipLLM is a breakthrough technology that dramatically reduces the storage space needed for AI language models while maintaining their full functionality.
+                        </p>
+                        <p>
+                            Our system achieves a <span class="highlight">49.5% reduction in storage size</span> while providing <span class="highlight">2× faster</span> processing speed compared to current solutions.
+                        </p>
+                    </div>
+                    <div class="benefits-column">
+                        <div class="info-box">
+                            <h4>Key Benefits</h4>
+                            <ul>
+                                <li><i class="fas fa-hdd"></i> <strong>Save&nbsp;Storage&nbsp;Space:</strong> Cut your AI model storage needs in&nbsp;half</li>
+                                <li><i class="fas fa-bolt"></i> <strong>Faster&nbsp;Processing:</strong> Load and process models more&nbsp;quickly</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>100%&nbsp;Lossless:</strong> No compromise on model quality or&nbsp;accuracy</li>
+                                <li><i class="fas fa-dollar-sign"></i> <strong>Cost&nbsp;Efficient:</strong> Lower infrastructure costs for AI&nbsp;deployments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-it-matters" class="section-card">
+            <h2 class="section-title">Why It Matters</h2>
+            <div class="paper-section">
+                <div class="flex-row">
+                    <div class="col-text">
+                        <h3>The AI Storage Crisis</h3>
+                        <p>
+                            AI language models are getting bigger and more numerous every day. This explosive growth is creating a massive storage problem:
+                        </p>
+                        <div class="stats-container">
+                            <div class="stat-box">
+                                <span class="stat-number">10+ PB</span>
+                                <span class="stat-desc">Current AI model storage on Hugging Face</span>
+                            </div>
+                            <div class="stat-box highlight-stat">
+                                <span class="stat-number">1 EB</span>
+                                <span class="stat-desc">Projected storage needs by end of 2025</span>
+                                <span class="stat-note">(That's 1,000 petabytes!)</span>
+                            </div>
+                        </div>
+                        <p>
+                            This growth is unsustainable and threatens the accessibility of AI technology. Most of this storage is consumed by fine-tuned models that are only slightly different from their base versions.                             
+                        </p>
+                    </div>
+                    <div class="col-image">
+                        <div class="image-container">
+                            <img src="images/repo_growth.svg" alt="Growth of model repositories at Hugging Face">
+                            <p class="caption">The exponential growth of AI model storage creates urgent sustainability challenges</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section-card">
+            <h2 class="section-title">How ZipLLM Works</h2>
+            <div class="paper-section">
+                <div class="technology-overview">
+                    <p class="intro-text">
+                        ZipLLM uses a smart combination of techniques to dramatically reduce AI model storage needs without losing any information. Here's how we do it:
+                    </p>
+                    
+                    <div class="tech-steps">
+                        <div class="tech-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Smart&nbsp;Model&nbsp;Organization</h3>
+                                <p>We group similar AI models together based on their relationships. This is like organizing your books by author and series, making it easier to spot&nbsp;similarities.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Finding&nbsp;&amp;&nbsp;Removing&nbsp;Duplicates</h3>
+                                <p>We identify duplicate pieces across models and store them only once. It's like noticing that many books in a series have the same introduction chapter, so you only need to keep one&nbsp;copy.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Smart&nbsp;Compression&nbsp;with&nbsp;BitX</h3>
+                                <p>Our special BitX technology efficiently stores just the differences between similar models, rather than entire models. This is like keeping one full book and then just noting the small changes in other&nbsp;editions.</p>
+                                <div class="image-container">
+                                    <img src="images/bitx_workflow.svg" alt="BitX Compression Workflow">
+                                    <p class="caption">Our BitX technology identifies and compresses differences between model versions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-diagram">
+                        <div class="image-container full-width">
+                            <img src="images/system_workflow.svg" alt="ZipLLM System Workflow">
+                            <p class="caption">The complete ZipLLM workflow combines multiple smart techniques for maximum efficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="results" class="section-card">
+            <h2 class="section-title">Real-World Results</h2>
+            <div class="paper-section">
+                <div class="results-overview">
+                    <h3>Tested on 1,742 Real AI Models</h3>
+                    <p>
+                        We rigorously tested ZipLLM on a diverse collection of 1,742 AI models from the Hugging Face repository. The results speak for themselves:
+                    </p>
+                    
+                    <div class="results-grid">
+                        <div class="result-card">
+                            <div class="result-icon"><i class="fas fa-compress-alt"></i></div>
+                            <div class="result-value">49.5%</div>
+                            <div class="result-label">Storage&nbsp;Reduction</div>
+                            <div class="result-desc">Cutting storage requirements nearly in&nbsp;half</div>
+                        </div>
+                        
+                        <div class="result-card">
+                            <div class="result-icon"><i class="fas fa-trophy"></i></div>
+                            <div class="result-value">20%</div>
+                            <div class="result-label">Better&nbsp;Than&nbsp;Competition</div>
+                            <div class="result-desc">Outperforming other state-of-the-art&nbsp;solutions</div>
+                        </div>
+                        
+                        <div class="result-card">
+                            <div class="result-icon"><i class="fas fa-bolt"></i></div>
+                            <div class="result-value">2×</div>
+                            <div class="result-label">Faster&nbsp;Processing</div>
+                            <div class="result-desc">Double the throughput of existing&nbsp;systems</div>
+                        </div>
+                        
+                        <div class="result-card">
+                            <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                            <div class="result-value">100%</div>
+                            <div class="result-label">Lossless&nbsp;Quality</div>
+                            <div class="result-desc">Zero compromise on model&nbsp;performance</div>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-container">
+                        <div class="image-container">
+                            <img src="images/compression_summary.svg" alt="Compression results summary">
+                            <p class="caption">ZipLLM outperforms existing solutions in both space savings and processing speed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <blockquote>
+                            ZipLLM represents a significant advance in AI model storage efficiency. The combination of intelligent deduplication with their novel BitX compression delivers impressive results that could help address the growing storage crisis in AI.
+                        </blockquote>
+                        <cite>— AI Storage Expert</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="team" class="section-card">
+            <h2 class="section-title">Our Team</h2>
+            <div class="paper-section">
+                <p class="team-intro">
+                    ZipLLM was developed by a team of researchers passionate about making AI technology more efficient and sustainable.
+                </p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-photo placeholder-photo"></div>
+                        <h3>Research Team</h3>
+                        <p>Our diverse team brings expertise in machine learning, systems, compression algorithms, and storage optimization.</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Interested in learning more about ZipLLM or collaborating with us? Contact us at <a href="mailto:contact@zipllm.research">contact@zipllm.research</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ZipLLM</h3>
+                    <p>Smart Storage for AI Models</p>
+                    <p class="small">Based on research to appear in NSDI '26</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#what-it-does">What It Does</a></li>
+                        <li><a href="#why-it-matters">Why It Matters</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#results">Results</a></li>
+                        <li><a href="#team">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 ZipLLM Research Team. Website updated: April 27, 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Sticky navigation
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('.sticky-nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('visible');
+            } else {
+                nav.classList.remove('visible');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
